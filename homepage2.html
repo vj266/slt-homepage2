@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 2</title>
+</head>
+<style>
+  *{
+        margin:0;
+        padding:0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: sans-serif;
+       }
+    .header{
+        width:85%;
+        height:4.5rem;
+        background-color:blueviolet;
+        display:flex;
+        float:right;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar ul{
+      display: flex;
+      align-items: center;
+  }
+  .navbar ul li a{
+      justify-content: space-between;
+      padding:5px 60px;
+      color:white;
+      align-items: center;
+  }
+  .sidebar{
+        width:15%;
+        height:100vh;
+        background-color:blueviolet;
+    }
+    .sidebar h3{
+        color:white;
+        padding:5px;
+    }
+    .btn{
+        margin-left: 25px;
+        padding:10px 30px;
+        cursor: pointer;
+    }
+    .feeds h3{
+        margin-left: 25px;
+    }
+    .list li{
+        color:white;
+        padding:10px;
+        border-bottom: 1px solid gray;
+        text-align:left;
+    }
+    .list li a{
+        text-decoration: none;
+        color:white;
+        cursor:pointer;
+    }
+</style>
+<body>
+    <div class="header">
+        <div class="navbar">
+        <ul>
+            <li><a href="#">TRENDING</a></li>
+            <li><a href="#">KEYWORDS</a></li>
+            <li><a href="#">TOPICS</a></li>
+            <li><a href="#">QUESTIONS</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="sidebar"><br><br><br><br>
+        <hr><h3>Trending by Country</h3><hr>
+        <br><br><button class="btn">
+            + Create Feed
+        <br></button><hr>
+        <div class="feeds"><br><br><h3>Curated Feeds</h3></div><hr>
+        <div class="list">
+            <ul>
+                <li><a href="#"> Corona Virus</li></a>
+                <li><a href="#"> Health</li></a>
+                <li><a href="#"> Entertainment</li></a>
+                <li><a href="#"> News</li></a>
+                <li><a href="#"> Sports</li></a>
+                <li><a href="#"> Politics</li></a>
+                <li><a href="#"> Marketing</li></a>
+                <li><a href="#"> Business</li></a>
+                <li><a href="#"> Science</li></a>
+                <li><a href="#"> Education</li></a>
+                <li><a href="#"> Technology</li></a>
+                <li><a href="#"> Video(Viral)</li></a>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
